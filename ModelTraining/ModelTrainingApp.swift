@@ -2,7 +2,7 @@
 //  ModelTrainingApp.swift
 //  ModelTraining
 //
-//  Created by admin on 2025/6/3.
+//  Created by Kyle Lei on 2025/6/3.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct ModelTrainingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ModelTrainingView()
         }
     }
 }

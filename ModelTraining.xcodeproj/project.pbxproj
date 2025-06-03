@@ -6,17 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		84950BD22DEEEB1B00924D65 /* ModelTrainingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84950BCE2DEEEB1B00924D65 /* ModelTrainingApp.swift */; };
+		84950BD32DEEEB1B00924D65 /* ModelTrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84950BCF2DEEEB1B00924D65 /* ModelTrainingView.swift */; };
+		84950BD42DEEEB1B00924D65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84950BCB2DEEEB1B00924D65 /* Assets.xcassets */; };
+		84950BD62DEEEB3200924D65 /* ModelTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84950BD52DEEEB3200924D65 /* ModelTraining.swift */; };
+		84950BD82DEEEB6400924D65 /* ModelTrainingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84950BD72DEEEB6400924D65 /* ModelTrainingCard.swift */; };
+		84950BDA2DEEEBC600924D65 /* DashboardCardWithHighlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84950BD92DEEEBC600924D65 /* DashboardCardWithHighlight.swift */; };
+		84950BDC2DEEEBD800924D65 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84950BDB2DEEEBD800924D65 /* Color+Extension.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		84950BBA2DEEEABC00924D65 /* ModelTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModelTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84950BCB2DEEEB1B00924D65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84950BCD2DEEEB1B00924D65 /* ModelTraining.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ModelTraining.entitlements; sourceTree = "<group>"; };
+		84950BCE2DEEEB1B00924D65 /* ModelTrainingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTrainingApp.swift; sourceTree = "<group>"; };
+		84950BCF2DEEEB1B00924D65 /* ModelTrainingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTrainingView.swift; sourceTree = "<group>"; };
+		84950BD52DEEEB3200924D65 /* ModelTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTraining.swift; sourceTree = "<group>"; };
+		84950BD72DEEEB6400924D65 /* ModelTrainingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTrainingCard.swift; sourceTree = "<group>"; };
+		84950BD92DEEEBC600924D65 /* DashboardCardWithHighlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCardWithHighlight.swift; sourceTree = "<group>"; };
+		84950BDB2DEEEBD800924D65 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		84950BBC2DEEEABC00924D65 /* ModelTraining */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ModelTraining;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		84950BB72DEEEABC00924D65 /* Frameworks */ = {
@@ -32,7 +42,7 @@
 		84950BB12DEEEABC00924D65 = {
 			isa = PBXGroup;
 			children = (
-				84950BBC2DEEEABC00924D65 /* ModelTraining */,
+				84950BD02DEEEB1B00924D65 /* ModelTraining */,
 				84950BBB2DEEEABC00924D65 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +53,21 @@
 				84950BBA2DEEEABC00924D65 /* ModelTraining.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		84950BD02DEEEB1B00924D65 /* ModelTraining */ = {
+			isa = PBXGroup;
+			children = (
+				84950BCF2DEEEB1B00924D65 /* ModelTrainingView.swift */,
+				84950BD72DEEEB6400924D65 /* ModelTrainingCard.swift */,
+				84950BD52DEEEB3200924D65 /* ModelTraining.swift */,
+				84950BD92DEEEBC600924D65 /* DashboardCardWithHighlight.swift */,
+				84950BDB2DEEEBD800924D65 /* Color+Extension.swift */,
+				84950BCD2DEEEB1B00924D65 /* ModelTraining.entitlements */,
+				84950BCE2DEEEB1B00924D65 /* ModelTrainingApp.swift */,
+				84950BCB2DEEEB1B00924D65 /* Assets.xcassets */,
+			);
+			path = ModelTraining;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +84,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				84950BBC2DEEEABC00924D65 /* ModelTraining */,
 			);
 			name = ModelTraining;
 			packageProductDependencies = (
@@ -109,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84950BD42DEEEB1B00924D65 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +142,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84950BD22DEEEB1B00924D65 /* ModelTrainingApp.swift in Sources */,
+				84950BDC2DEEEBD800924D65 /* Color+Extension.swift in Sources */,
+				84950BDA2DEEEBC600924D65 /* DashboardCardWithHighlight.swift in Sources */,
+				84950BD32DEEEB1B00924D65 /* ModelTrainingView.swift in Sources */,
+				84950BD62DEEEB3200924D65 /* ModelTraining.swift in Sources */,
+				84950BD82DEEEB6400924D65 /* ModelTrainingCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +287,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ModelTraining;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -285,6 +315,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ModelTraining;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
