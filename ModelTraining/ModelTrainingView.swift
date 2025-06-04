@@ -78,6 +78,7 @@ struct ModelTrainingView: View {
                 }
             }
         }
+        .padding()
     }
 }
 

@@ -58,13 +58,13 @@
 		84950BD02DEEEB1B00924D65 /* ModelTraining */ = {
 			isa = PBXGroup;
 			children = (
+				84950BCE2DEEEB1B00924D65 /* ModelTrainingApp.swift */,
 				84950BCF2DEEEB1B00924D65 /* ModelTrainingView.swift */,
 				84950BD72DEEEB6400924D65 /* ModelTrainingCard.swift */,
 				84950BD52DEEEB3200924D65 /* ModelTraining.swift */,
 				84950BD92DEEEBC600924D65 /* DashboardCardWithHighlight.swift */,
 				84950BDB2DEEEBD800924D65 /* Color+Extension.swift */,
 				84950BCD2DEEEB1B00924D65 /* ModelTraining.entitlements */,
-				84950BCE2DEEEB1B00924D65 /* ModelTrainingApp.swift */,
 				84950BCB2DEEEB1B00924D65 /* Assets.xcassets */,
 			);
 			path = ModelTraining;

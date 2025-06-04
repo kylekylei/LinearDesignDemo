@@ -33,6 +33,7 @@ struct DashboardCardWithHighlight<Content: View>: View {
         }
         .padding(20)
         .background(
+            // Translucent Fill
             RoundedRectangle(cornerRadius: 16)
                 .fill(
                     LinearGradient(
@@ -45,7 +46,7 @@ struct DashboardCardWithHighlight<Content: View>: View {
                     )
                 )
                 .overlay(
-                    // 基礎邊框
+                    // Base Border
                     RoundedRectangle(cornerRadius: 16)
                         .stroke(
                             LinearGradient(
@@ -60,7 +61,7 @@ struct DashboardCardWithHighlight<Content: View>: View {
                         )
                 )
                 .overlay(
-                    // 旋轉高光
+                    // Rotating Highlight
                     RoundedRectangle(cornerRadius: 16)
                         .stroke(
                             AngularGradient(
